@@ -1,0 +1,132 @@
+/* Ann's FP Realty — Neighborhoods Site */
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: #212529;
+}
+
+/* ── Navbar ── */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-item i {
+    font-size: 1.4rem;
+    color: #009431;
+    flex-shrink: 0;
+}
+
+.contact-item .label {
+    font-size: 0.65rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    line-height: 1;
+}
+
+.contact-item .value {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #212529;
+    line-height: 1.2;
+}
+
+/* ── Hero ── */
+.hero-section {
+    background: linear-gradient(135deg, #009431 0%, #006d24 100%);
+    color: #fff;
+    padding: 5rem 0 4rem;
+}
+
+/* ── Neighborhood cards (homepage) ── */
+.nb-card {
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: box-shadow 0.2s, transform 0.2s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nb-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
+}
+
+.nb-card-strip {
+    height: 5px;
+    background: #009431;
+}
+
+.nb-card-body {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.nb-card-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+}
+
+.nb-card-desc {
+    color: #6c757d;
+    font-size: 0.875rem;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.btn-green {
+    background: #009431;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 1.1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.15s;
+}
+
+.btn-green:hover {
+    background: #007a28;
+    color: #fff;
+}
+
+/* ── Inner page ── */
+.breadcrumb-item a {
+    color: #009431;
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.grade-badge {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #009431;
+}
+
+.map-svg {
+    background: #f1f5f9;
+    border-radius: 8px;
+}
+
+/* ── Table ── */
+.table th {
+    font-weight: 600;
+    color: #495057;
+}
+
+/* ── Footer ── */
+footer {
+    border-top: 1px solid #dee2e6;
+}
